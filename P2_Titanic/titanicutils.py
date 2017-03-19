@@ -9,5 +9,5 @@ def count_nan(series: pd.Series):
 
 
 def nans_count_by_column(df: pd.DataFrame) -> pd.DataFrame:
-    return df.apply(count_nan).to_frame('Number of NaN').transpose()
+    return df.apply(count_nan).to_frame().transpose()
 
