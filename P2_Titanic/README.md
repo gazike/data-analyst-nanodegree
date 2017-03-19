@@ -12,13 +12,7 @@ To activate the environment use:
 ```
 source activate P2_Titanic
 ```
-To process the data execute:
-```
-python titanic.py
-```
-It will generate files in ``report`` directory that can be used 
-to generate ``titanic-report.pdf`` file using LaTeX.
-To generate final ``titanic-report.pdf`` run:
-```
-python generate-report.py
-```
+File ``titanic-utils.py`` contain utility functions to work with data set.
+
+File ``titanic-report.ipynb`` is a juptyter notebook is a report describing factors
+that influenced survival of Titanic passengers.
