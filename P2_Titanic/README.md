@@ -12,7 +12,6 @@ To activate the environment use:
 ```
 source activate P2_Titanic
 ```
-File ``titanic-utils.py`` contain utility functions to work with data set.
 
-File ``titanic-report.ipynb`` is a juptyter notebook is a report describing factors
+File ``titanic-report.ipynb`` is a juptyter notebook which contains a report describing factors
 that influenced survival of Titanic passengers.
